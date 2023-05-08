@@ -1,0 +1,81 @@
+6 Gestión de Recursos en Red de un Sistema Informático
+
+6.1 Permisos
+    Definen el nivel de acceso que los usuarios y los grupos tienen respecto de un objeto.
+    El propietario y los administradores del sistema tienen control total sobre los objetos.
+    Ejemplo de permisos: lectura, escritura, ejecución, modificación y control total.
+
+    - Permisos Especiales
+    Hay otros permisos que posibilitan acciones más concretas sobre los objetos.
+
+    Ejemplos de permisos especiales:
+        Atravesar carpeta/ejecutar archivo
+        Mostrar carpeta/leer datos
+        Leer atributos
+        Leer atributos extendidos
+        Crear archivos/escribir datos
+        Crear carpetas/anexar datos
+        Escribir atributos
+        Escribir atributos extendidos
+        Eliminar 
+        Permisos de lectura
+        Cambiar permisos
+        Tomar posesión
+    
+    Nota:
+        - Se pueden definir los permisos NTFS solo en las unidades con formato NTFS.
+        - Los permisos no permitidos explícitamente están implícitamente denegados.
+        - Los permisos se suman cuando un usuario pertenece a distinto grupo.
+        - La denegación de permisos tiene preferencia sobre la concesión.
+        - Los permisos sobre ficheros prevalencen sobre los de la carpeta.
+
+6.1.1 Compartir Archivos o Carpetas
+    A la hora de compartir archivos o carpetras entre distitos equipos debemos asegurarnos que:
+        - Los equipos se encuentre en la misma subred.
+        - Activar la deteccion de redes y el uso compartido de archivos.
+        - Que se encuentre en el mismo grupo de trabajo el equipo con el recurso compartido.
+    
+6.1.2 Herencia
+    Windows permite la herencia de permisos de objetos primarios a secundiarios. siendo el propietario
+    quien controla como se herendan los permisos.
+    La herencia de los permisos es dinámica, por lo que la modificación de un permiso afectará a los 
+    archivos y carpetas que contengan.
+    En opciones de seguridad  avanzadas podemos deshabilitar y habilitar la herencia. Por defecto se
+    encuentra activada.
+    Además, La herencia de ermisos se puede editar para cada entrada de permiso, seleccionando la entrada 
+    y pulsando en 'Editar' e indicacionb el tipo y a que objetos les afectarán los permisos de objeto 
+    primario.
+
+6.1.3 ACL
+    El sistema de archivos NTFS implementa los permisos utilizando listas de control de acceso(ACL).
+    Estas listas contienen los usuarios, grupos y equipos.
+    Cada objeto tiene asociada un ACL. Para cada usuario o grupo, Existe una entrada de accesos (ACE)
+    en su ACL.
+
+6.2 Derechos de Usuarios
+    Los derechis de usuarios determinan las acciones que pueden realizar los usuarios o grupos. A 
+    diferencia de los permisos, los derechos de usuario se asocian con usuarios y no con objetos.
+    
+    Derechos de usuarios:
+        - Derechos de inicio de sesión.
+        - Privilegios especificos: Realizar copias de seguridad de archivos y directorios...
+
+6.2.1 Directivas de seguridad
+    Establecen un conjunto de reglas de seguridad para administrar usuarios y equipos. Se definen
+    mediante (GPO). Una GPO contiene parametros que definen politicas del sistema-
+    Ejemplos de ellos son:
+        Configurar el entorno grafico
+        Automatizar tareas
+        Evitar que un usuario pueda instalar u desinstalar programas.
+        Fortalecer las contraseñas de inicio de sesion.
+        Evitar el uso de memorias flash USB.
+    
+    Podemos distinguir dos tipos:
+        - GPO locales: utilizadas para los equipos que no forman parte de un dominio.
+        - GPO no locales: orientadas al servicio de directorios de Microsoft, llamado Active Directory.
+    
+    Segun los objetos que contienen las GPO locatles, Estas se dividen en:
+        - Directivas de configuracion de equipo.
+        - Directivas de configuracion de usuario.
+    
+    
