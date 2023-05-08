@@ -1,0 +1,80 @@
+7 Aplicaciones Informaticas
+
+7.1 Tipos de sofware 
+    Al sofware se asocia a un vendedor y un comprador, y se hace un contrato llamada licencia.
+
+7.1.1 Clasificación por licencia
+
+    - Sofware libre o free software
+        * Libertad para ejecutar con cualquier proposito el programa
+        * Libertad para estudiarlo
+        * Libertad para distribuir
+        * Libertad para modificarlo y mejorarlo
+    - Sofware propietario, lo contrario al anterior
+    - Software con copyleft, software que garatiza su distribucion y uso pero con clausulas.
+    - Software con dominio publico, no tiene derechos de autor y su codigo fuente es publico.
+    - Software sin copyleft, se puede cambiar de licencia:
+        * Licencia BSD
+        * Licencia Mit
+        * Licencia APACHE
+    - Mozilla Public License, puede cambiar de licencia pero su codigo debe estar en su fomato
+    original.
+
+    En casos de los sistemas operativos propietarios, se establecen contratos EULA o contrato de
+    licencia de usuario final (CLUF).
+    En cuanto a la distribucion de sistemas operativos estan:
+        - Licencia OEM
+        - Licencia retail
+        - Licencia de volumen
+    
+7.1.2 Clasificacion por proposito
+    Este se clasifica en:
+        - Software base
+        - Software de desarrollo
+        - Software de aplicacion
+            * Software Ofimatico
+            * Software empresarial
+            * Software de diseño
+            * Navegadores
+            * Software de seguridad
+            * Juegos
+
+7.2 Requisitos minimos y recomendados
+    Las apps establecen unos requisitos minimos para poder ejecutarse y usarse. Estos suelen estar
+    alejados de las necesidades reales del sistema informatico y los requisitos recomendados, busca mas 
+    la eficiencia y ligereza del programa en condiciones de estres.
+
+7.3 Herramientas Ofimaticas
+    Las aplicaciones ofimaticas son imprescidibles como parte de cualquier sistema operativo, teniendo 
+    como objetivo estas tareas mas habituales:
+        - Elaboracion de textos
+        - Calculos a partir de tablas de datos
+        - Creacion de presentaciones
+        - Gestion de bases de datos
+        - Planificacion de proyectos
+        - Diseño grafico
+    Ejemplos:
+        - Microsoft Office, privado
+            * Microsoft Word
+            * Microsoft Excel
+            * Microsoft Acces
+            * Microsoft PowerPoint
+            * Microsoft Outlook
+            * Microsoft Publisher
+        - LibreOffice, publico
+            * Writter
+            * Calc
+            * Base
+            * Impress
+            * Draw
+            * Math
+    
+    No obstante, cada vez mas se tiende a trabajar desde la nube:
+        - Se pueden compartir archivos simultaneamente
+        - Los documentos estaran siempre disponibles
+        - Integran otros servicios como correo electronico, videoconferencias...
+        - La escalabilidad es muy alta
+
+
+
+

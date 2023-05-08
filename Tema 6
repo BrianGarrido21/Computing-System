@@ -148,7 +148,8 @@
     de los datos iniciales. 
     Windows ofrece cifrado EFS sobre los archivos NTFS, pero no es compatible con la compresion de 
     archivos.
-    Otra manera de cifrado y solucionar los problemas de EFS es a traves de la herramienta BitLocker, que se encarga de asegurar la privacidad e integridad en volumenes enteros cifrando su contenido
+    Otra manera de cifrado y solucionar los problemas de EFS es a traves de la herramienta BitLocker, que 
+    se encarga de asegurar la privacidad e integridad en volumenes enteros cifrando su contenido
 
 6.6.2 Administracion y analisis
     Esta tarea suele ser muy compleja como grande la infraestructura.Por lo tanto se necesitan 
@@ -171,6 +172,25 @@
         - Firewall por software.
             * Firewall de servidor.
             * Firewall personal.
-        
+    Antes de usar se debe determinar su politica:
+        - Allow
+        - Deny
     
+6.6.4 Sistemas de detencion de intrusion
+    IDS monitorizan actividades o eventes en una red o host. Se puede catalogar en:
+        - Segun el sistema de deteccion.
+            * Deteccion mediante firmas.
+            * Deteccion mediante anomalias.
+        - Segun el tipo de respuesta ante el ataque.
+            * Pasivos
+            * Ativos
+        - Segun la fuente de analisis.
+            * Sistemas de deteccion de intrusiones de red (NIDS)
+            * Sistemas de deteccion de intrusiones del host (HIDS)
+    Security Onion Es una distribucion basada en Ubuntu acumula muchas herramientas orientadas a
+    la seguridad.
+
+6.6.5 OpenSSH
+    SSH y su version mas avanzada y libre OpenSSH son herramientas que permiten acceder de forma remota y 
+    seguira a otro equipo, por lo que al trabajar coj servidores es muy recomendable su uso.
     
