@@ -78,4 +78,99 @@
         - Directivas de configuracion de equipo.
         - Directivas de configuracion de usuario.
     
+    A su vez cada una se divide en: 
+        - Configuracion de software: permite la configuracion del sofware.
+        - Configuracion de windows: relacionado con el entorno de Windows.
+        - Plantillas administrativas: incluyen politicas basadas en la configuracion y ajuste del equipo.
+        Por tanto, es la categoria mas importate por la gran cantidad de directivas que reune.
+    
+6.2.2 Plantillas
+    Las plantillas permiten definir la configuracion del registro para administrar aplicaciones o 
+    caracteristicas del propio sistema operativo.
+
+6.3 Requisitos de seguridad del sistema y de los datos
+    Los requisitos de seguridad del sistema son los estándares, especificaciones y características 
+    deben implementarse en un sistema para garantizar la protección y confidencialidad de los datos, la 
+    prevención de accesos no autorizados, y la integridad y disponibilidad del sistema.
+
+6.4 Servidores
+    Los servidores permiten compartir recursos en red.
+    Un servidor ha de cumplir con tres aspectos:
+        - Disponibilidad
+        - Ecalabilidad
+        - Mantenimiento
+
+6.4.1 Servidor de ficheros 
+    Tiene como objetivo gestionar el almacenacion controlado de ficheros sobre clientes
+    Estos servidores utilizan para transferir ficheros los protocolos FTP, FTPS y SFTP de mayor seguridad.
+
+6.4.2 Servidor de inspresión
+    Los servidores de impresion harware posibilitan la conectividad con impresoras. De esta manera, estos 
+    se conectan directamente a la red. Distinguimos:
+        - Servidor externo: se encuentra fuera de la impresora.
+        - Servidor interno: situado en el interior de la impresora.
+    Estos disponen de su propia guia de instalacion. No obstamte, windows dispone de herramientas que
+    proporcionan la capacidad de gestionar impresoras para actuar como un servidor de impresion.
+    La centralizacion mediante ester servidor de impresion posibilita, entre otras acciones:
+        - Agregar drivers al servidor de impresión.
+        - Agregar mas impresoras.
+        - Modificar la carpeta de cola de impresion.
+
+6.4.3 Servidor de aplicaciones
+    Los servidores de aplicaciones alojan y ejecutan programas a peticion de los clientes a traves de la 
+    red. Se encargan de manejar la logica de negocio de la aplicacion. Por ello los servidores de 
+    aplicaciones suele emprearse cuando se quiere reducir la complejidad y tamaño de las aplicaciones.
+
+    Se fundamentas en una arquitectura de 3 capas:
+        - Nivel 1: presentacion o interfaz grafica (GUI).
+        - Nivel 2: app o servidores de apps ecargados de ejecutar el procesamiento de la información.
+        - Nivel 3: base de datos.
+
+    Ejemplos mas conocidos:
+        WebLogic de Oracle
+        WebSphere de IBM
+        Apache
+        GlashFish
+
+6.5 Conexion remota. Herramientas
+    Permite acceder a equpos a distancia, utilizadas para realizar tareas como soporte tecnico o 
+    teletrabajo.
+    La mayoria de sistemas operativos la ofrecen. No obstante, existe una multitud de sofwares de terceros
+    que ofrecen esta caracteristicas, como por ejemplo TeamViewer.
+
+6.6 Herramientas de seguridad
+    Los sistemas operativos en red deben estar protegidos de cualquier amenaza. Para dar respuesta a esto 
+    existen diversas herramientas de seguridad complementarias en el sistema operativo. Por ejemplo un 
+    antivirus o cortafuegos.
+
+6.6.1 Cifrado
+    Permite garantizar la comfodemcoalidad, autenticidad e integridad de los datos mediante la conversion 
+    de los datos iniciales. 
+    Windows ofrece cifrado EFS sobre los archivos NTFS, pero no es compatible con la compresion de 
+    archivos.
+    Otra manera de cifrado y solucionar los problemas de EFS es a traves de la herramienta BitLocker, que se encarga de asegurar la privacidad e integridad en volumenes enteros cifrando su contenido
+
+6.6.2 Administracion y analisis
+    Esta tarea suele ser muy compleja como grande la infraestructura.Por lo tanto se necesitan 
+    herramientas que momitoricen la red de forma unificada, permitiendo:
+        - Estudiar la red e un momento concreto y a largo plazo.
+        - Valorar la optimización de la infraestructura de red.
+        - Detectar trafico malintencionado.
+    Un ejemplo de esta herramienta puede ser Pandora FMS.
+
+6.6.3 Cortafuegos
+    Las amenazas externos son filtradas por el cortafuegos, evitando accesos no autorizados. Sus 
+    principales capacidades son:
+        - De paqietes por direcciones IP o MAC
+        - De aplicaciones, atendiendo al numero de puerto
+        - De direcciones URL.
+    Ademas, los cortafuegos suelen emplear el protocolo NAT oara ocultar las direcciones privadas.
+    Su implementacion es llevada a cabo por hardware especifico o sofware de seguridad, a saber:
+        - Firewall dedicados.
+        - Firewall integrados.
+        - Firewall por software.
+            * Firewall de servidor.
+            * Firewall personal.
+        
+    
     
