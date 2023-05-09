@@ -75,6 +75,125 @@
         - Integran otros servicios como correo electronico, videoconferencias...
         - La escalabilidad es muy alta
 
+7.4 Herramientas de Internet
+    7.4.1 Correo Electronico
+        Es un servicio de intercambio de mensajes. Los servidores de correo utilizan diferentes protocolos
+        para enviar y recibir correos.
+            - Protocolo SMTP: Envia y recibe correos entre buzones
+            - Protocolo POP3: Se utiliza para acceder y descargar los correos desde los buzones.
+            - Protocolo IMAP4: Es el mismo que el POP3, pero no se eliminan los correos.
+        Tipos de gestores de correo:
+            - Basados en aplicacion. Son aplicaciones instaladas en un equipo cliente.
+            - Basados en web. Son paginas web en la que se gestiona los correo.
+            
+    7.4.2 Mensajeria instantanea
+        Facilitan la comunicacion a traves de texto, imagenes, videos etc.
+        Los sistemas de mensajeria instantanea pueden clasificarse:
+            - Segun el tipo de comunicacion
+                * Sincronos: Los usuarios han de estar conectados durante la comunicacion
+                * Asincronos: Lo contrario a sincronos
+            -Segun el tipo de informacion transmitida
+                * Por texto
+                * Por voz
+                * Por video
+                * Mixtos
+
+        Algunos ejemplos son WeChat, Telegram, etc.
+
+    7.4.3 Transferencia de ficheros
+        Ademas del protocolo FTP, existen otros protocolos asociados a la transferencias de ficheros.
+        Sin embargo, son muy empleadas las redes P2P, se fundamenta en la comparticion de datos , sin 
+        servidores intermedios.
+        Sus principales caracgerisiticas son:
+            - Escalabilidad
+            - Anonimato
+            - Descentralizacion, existen diferentes grados:
+                * Descentralizada
+                * Centralizada
+                * Hibrido
+    7.4.4 Computacion y almacenamientos en la nube
+        Se fundamenta en tecnologias que permten a los clientes conseguir servicios y efectividad en cada
+        uno de ellos bajo demanda. Presenta multitud de ventajas:
+            - No tienen necesidad de instalar aplicaciones
+            - Gran flexibilidad y eficiencia
+            - Alta disponibilidad
+            - Seguridad
+            - Reduccion de costes
+        
+        Existen 3 modelos de servicios de computacion en la nube:
+            - Software as a service (SaaS)
+            - SoftWare as a Service (PaaS) 
+            - Infraestructure as a Service (IaaS)
+
+        Ejemplos de productos de computacion:
+            - SaaS: Hotmail, Gmail, Dropbox
+            - PaaS: Heroku, Cloud Foundy
+            - Iaas: Azure, Amazon Web Services.
+        
+7.5 Software antimalware
+    Son aplicaciones que evintan la accionde de distintos tipos de amenazas: virus, spyware, troyanos, 
+    etc. Algunos ejemplos de antiviros; Avast, McAfee, Norton, etc.
+    Los antiviros son capaces de detectar cualquier tipo de malware pero los atimalwares suelen trabajar
+    independientemente de los antivirus.
+    Vocabulario de ataques informaticos:
+        - Phishing
+        - Sniffing
+        - DoS
+        - Hijacking
+
+    Vocabulario de tipos de malware:
+        - Virus
+            * Gusano
+            * Virus
+        - Troyanos
+        - Spyware
+        - Adware
+        - Ransomware
+        - Keylogger
+        - Botnet
+    
+7.6 Clonacion y copias de seguridad
+    Los administradores de sistemas necesitan herramientas especificas que faciliten las siguientes 
+    tareas:
+        - Copia de seguridad
+        - Aseguramiento de datos
+        - Recuperacion, reinicio y restauracion
+    
+    Las causas mas comunes por que se necesita la restauracion:
+        - Errores irrecuperables de los istemas operativos
+        - Eliminaciones y accesos malintencionados
+        - Mal funcionamiento de una aplicacion
+        - Rotura de un medio de almacenamiento
+        - Descuidos personales
+        - Malware
+
+    7.6.1 Clonaciones
+        Permiten copiar los datos contenidos en particiones o discos y almacenarlos en otras particiones.
+        La herramienta clonacion facilitan la creacion de imagenes. 
+        Destaca la aplicacion de clonacion GParted sofware libre, tambien esta clonezilla ya que es 
+        extremadamente fiable y flexible.
+
+    7.6.2 Copias de seguridad
+        Las copias de seguridad son acciones habituales por parte de los administradores del sistema.
+        A diferencia de las clonaciones esta herramienta manejan archivos concretos. 
+        Las politicas del backup determinan la frecuencia y el conjunto de archivos para la copia de 
+        seguridad. Tipos de copias mas comunes:
+            - Copia total
+            - Copia incremental
+            - Copia doferemcial
+        
+        Por linea de comandos de linux
+            - c crea un contenedor 
+            - x extrae archivos desde el contenedor
+            - f crea o lee desde el contenedor
+            - z comprime con gzip
+            - j comprime con bzip2
+            - t lista el contenido del contenedor
+            - v detalla las acciones realizadas
+            - C cambia el directorio antes de realizar otra accion
+            
+
+
 
 
 
