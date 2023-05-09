@@ -1,0 +1,60 @@
+
+1. Indica qie tipo de licencai software es aquella que prohibe o debe autorizar el uso, distribucion
+o modificación del sofwre:
+    a. Software con copyleft
+    b. software libre
+   *c. software propietario
+
+2. La principal diferencia entre licencias de software libre y licencia de codigo abierto es:
+    a. El sofware libre es mas pragmatico que la licencia de codigo abierto
+    b. La licencia de cofigo abierto ha de cumplir cuatro terminos y la de sofware libre diez libertades
+   *c. La licencia de sofware libre esta mas orientada a la etica y la de codigo abierto es mas
+    pragmatica
+
+3. ¿Que tipo de licencia de distribucion de Microsoft es aquella que es vendia a usuario, independiente-
+mente del hardware de destino, pero destinada a un unico equipo?
+    a. Licencia de volumen
+    b. Licencia retail
+   *c. Licencia OEM
+
+4. Los drivers de dispositivos, ¿Que tipo de software son, segun su proposito?
+   *a. Software de sistema
+    b. Sofware de desarrollo de aplicaciones
+    c. Software de aplicacion
+
+5. ¿Que tipo de aplicacion ofimatica es base y que suite pertenece?
+    a. Hoja de calculo de Microsoft Ofice
+   *b. Gestor de base de datos de openoffices y libreoffice
+    c. Procesador de textos de openoffices y libreoffices.
+
+6. El protocolo SMTP es utilizado para:
+    a. Acceder y descargar correos desde los buzones de los servidores de correo a las aplicaciomes de 
+    correo cliente. Se descargan localmente y se eliminan del servidor de correo.
+    b. Acceder a los buzones de correo y descargar los correos sin eliminarlos.
+   *c. Enviar correos entre servidores de correros, o desde un cliente de correo a un servidor de correo
+
+7. Son modelos de servicios de computacion den la nube, segun kos servicios gestionados por los usaurios 
+a nivel de aquitectura de computacion:
+    a. SaaS, WaaS, IaaS
+    b. SaaS, PaaS, LaaS
+   *c. Saas, PaaS, IaaS
+
+8. ¿Que herramientas para el aseguramiento de los datos y su posterior recuperacion permiten trabajar de 
+forma concreta sobre los archivos indiviudales sin iterrumpir el servicio ofrecido por las particiones o 
+discos que contiene?
+    a. Clonaciones
+   *b. Copias de seguridad
+    c. Ambas
+
+9. La recuperacion de datos de medios de almacionamientro por causas intencionas o fortuitas:
+    a. Es un instrumento mas de generacion de copias de seguridad.
+   *b. Se considera un ultimo recurso, pero no como copia de seguridad
+    c. Siempre es la solucion completamente segura para restaurar los archivos a su situacion original
+
+10. El proceso de generacion y busqueda de documentacion tecnica asociada con la instalacion, 
+mantenimient, actualizacion, explotacion y desinstalacion de aplicaciones en los sistemas informaticos es 
+necesario para:
+   *a. El correcto matenimiento de las aplicaciones, asi como para obtener un menor tiempo de respuesta 
+   en la resolucion de errores.
+    b. La reparacion y sustitucion de componentes hardware de equipo
+    c. Obtener un listado de todas aquellas aplicaciones que hayan sido explotadas

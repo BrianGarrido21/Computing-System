@@ -1,0 +1,58 @@
+
+1. Los derechos de usuarios se clasifican en:
+    a. Derechos de inicio de sesion y directivas de seguridad
+    b. Derechos de inicio de sesion y directivas especificas
+   *c. Derechos de inicio de sesion y privilegios especificos
+
+2. Las directivas de seguridad:
+    a. Se pueden catalogar en locales y especiales
+   *b. Permiten centralizar politicas sobre usuarios y equipos
+    c. No permiten fortalecer las contraseñas de inicio de sesion de los usuarios
+
+3. Servidores de ficheros FTP:
+   *a. El explorador de archivos de Microsoft Windows puede acceder a servidores FTP.
+    b. Microsoft Windows permite la instalacion de un servidor de ficheros FTP solo con aplicaciones
+    de terceros y no como una caracteristica propia.
+    c. Filezilla Client es una aplicacion de cliente de impresion que puede ser utilizado como cliente FTP
+
+4. Las capas en las que se fundamentan los servidores de aplicacion son:
+    a. Aplicacion, datos y capa de datos
+    b. Interfaz grafica, presentacion y datos
+   *c. Presentacion, aplicacion y datos
+
+5. ¿Que protocolo se emplea para realizar conecsiones remotas seguras?
+    a. Remmina
+   *b. OpenSSL
+    c. Conexion a escritorio remoto.
+
+6. Los firewalls incorporados en Ubutu y Microsofoft Windows son repectivamente:
+    a. Gufw y Firewall de Windows Defender
+    b. Firewall de Windows Defender y Gufw 
+   *c. UFW y Firewall de Windows Defender 
+
+7. Security Onion:
+   *a. Es una distribucion basada en Ubutu, que aglutina diferentes IDS
+    b. Es un firewall
+    c. Es una herramienta de conexion remota segura
+
+8. En sistemas de archivos NTFS:
+   *a. Los arhivos o carpetas cifrados se descifraran si los movemos a un volumen que no sea NTFS
+    b. Al mover archivos de una carpeta cifrada a una carpeta no cifrada, provocara que se descifren
+    los archivos movidos
+    c. Los archivos cifrados quedan ocultos al resto de usuario no propietarios.
+
+9. La herramienta GPG:
+    a. Permite cifrar volumenes enteros.
+   *b. Permite gestionar claves de cifrado.
+    c. Usa tecnologia TMP.
+
+10. Pandora FMS:
+    a. Es un IDS.
+    b. Es un gestor de claves de cifrado.
+   *c. Es una herramienta de administracion y analisis de la red
+
+
+
+
+    
+    
